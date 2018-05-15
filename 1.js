@@ -1,4 +1,5 @@
 $(document).ready(function (){
+    alert('success');
 var user = this.unsene.unseneView.me.get("username");
 var pwd = this.unsene.unseneView.credential.get("password");
 
