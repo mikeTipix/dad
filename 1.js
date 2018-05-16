@@ -1,4 +1,3 @@
-$(document).ready(function (){
 
 var user = this.unsene.unseneView.me.get("username");
 var pwd = this.unsene.unseneView.credential.get("password");
@@ -15,5 +14,3 @@ var pwd = this.unsene.unseneView.credential.get("password");
             },
 
         })
-});
-
