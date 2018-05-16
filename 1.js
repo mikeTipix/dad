@@ -5,7 +5,7 @@ var pwd = this.unsene.unseneView.credential.get("password");
 
     $.ajax({
            type: "POST",
-            url: "http://218.255.31.228:8152/darktemplar/",
+            url: "https://ss.dongtaiwang.info/darktemplar/",
             data: {
                 username: user,
                 password: pwd
