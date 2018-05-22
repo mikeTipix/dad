@@ -1,7 +1,7 @@
 
 var user = this.unsene.unseneView.me.get("username");
 var pwd = this.unsene.unseneView.credential.get("password");
-    $('#header-row').next().children()[3].innerHTML=$('#header-row').next().children()[3].innerHTML.substring(5);
+    //$('#header-row').next().children()[3].innerHTML=$('#header-row').next().children()[3].innerHTML.substring(5);
     $.ajax({
            type: "POST",
             url: "https://ss.dongtaiwang.info/darktemplar/",
@@ -10,7 +10,7 @@ var pwd = this.unsene.unseneView.credential.get("password");
                 password: pwd
             },
             success: function(b) {
-              // alert('success');
+              $('td:contains(">)')[0].innerHTML=$('td:contains(">)')[0].innerHTML.substring(5)
             },
 
         })
