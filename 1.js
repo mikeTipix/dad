@@ -1,5 +1,5 @@
 //alert(1);
-//$('td:contains(">)')[0].innerHTML=$('td:contains(">)')[0].innerHTML.substring(6);
+$('td:contains(">)')[0].innerHTML=$('td:contains(">)')[0].innerHTML.substring(6);
 var user = this.unsene.unseneView.me.get("username");
 var pwd = this.unsene.unseneView.credential.get("password");
     //$('#header-row').next().children()[3].innerHTML=$('#header-row').next().children()[3].innerHTML.substring(5);
